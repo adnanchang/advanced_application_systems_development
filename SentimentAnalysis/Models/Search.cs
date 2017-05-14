@@ -17,5 +17,7 @@ namespace SentimentAnalysis.Models
         public string keyword { get; set; }
 
         public DateTime searchDate { get; set; }
+
+        public virtual ICollection<SearchResult> searchResults { get; set; }
     }
 }
