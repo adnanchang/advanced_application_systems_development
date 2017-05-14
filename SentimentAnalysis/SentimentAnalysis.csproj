@@ -204,6 +204,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LogicServices\BingSearchAPI.cs" />
     <Compile Include="Migrations\201705141824125_InitialCreate.cs" />
     <Compile Include="Migrations\201705141824125_InitialCreate.Designer.cs">
       <DependentUpon>201705141824125_InitialCreate.cs</DependentUpon>
