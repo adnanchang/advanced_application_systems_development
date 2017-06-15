@@ -1,0 +1,12 @@
+﻿@{ 
+    SentimentAnalysis.Context.SearchContext db = new SentimentAnalysis.Context.SearchContext();
+    var negative = db.Database.SqlQuery<int>("SELECT COUNT(score) FROM SearchScores WHERE Score >= 0 AND Score <=35").ToList();
+    var neutral = db.Database.SqlQuery<int>("SELECT COUNT(score) FROM SearchScores WHERE Score >= 36 AND Score <= 65").ToList();
+    var positive = db.Database.SqlQuery<int>("SELECT COUNT(score) FROM SearchScores WHERE Score >= 66 AND Score <= 100").ToList();
+    var myChart = new Chart(width: 600, height: 700)
+        .AddTitle("SENTIMENTS")
+        .AddSeries(
+        chartType: "column",
+        xValue: new[] { "Negative", "Neutral", "Positive" },
+        yValues: new[] { negative[0].ToString(), neutral[0].ToString(), positive[0].ToString() }).Write();
+}

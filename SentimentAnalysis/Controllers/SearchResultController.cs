@@ -1,10 +1,12 @@
 ﻿using Newtonsoft.Json.Linq;
 using SentimentAnalysis.Context;
+using SentimentAnalysis.LogicServices;
 using SentimentAnalysis.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
@@ -14,6 +16,7 @@ namespace SentimentAnalysis.Controllers
     public class SearchResultController : Controller
     {
         private SearchContext db = new SearchContext();
+        private BingTextAnalyticsAPI TextAnalyticsAPI = new BingTextAnalyticsAPI();
 
         // GET: SearchResult
         public ActionResult Index()
@@ -42,13 +45,16 @@ namespace SentimentAnalysis.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    List<SearchScores> SearchScores = new List<Models.SearchScores>();
                     foreach (var item in SearchResult)
                     {
                         item.searchId = item.Search.id;
                         db.SearchResult.Add(item);
                     }
+                    TextAnalyticsAPI.Sentiment(SearchResult, SearchScores);
+                    TempData["SearchScores"] = SearchScores;
                     db.SaveChanges();
-                    return RedirectToAction("Create", "Search", new { area = "" });
+                    return RedirectToAction("Create", "SearchScores", new { area = "" });
                 }
                 return View(SearchResult);
             }
@@ -101,5 +107,7 @@ namespace SentimentAnalysis.Controllers
                 return View();
             }
         }
+
+        
     }
 }

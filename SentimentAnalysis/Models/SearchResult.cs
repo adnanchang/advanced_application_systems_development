@@ -22,7 +22,8 @@ namespace SentimentAnalysis.Models
         [ForeignKey("Search")]
         [Column(Order = 3)]
         public int searchId { get; set; }
-
         public virtual Search Search { get; set; }
+
+        public virtual SearchScores SearchScores { get; set; }
     }
 }

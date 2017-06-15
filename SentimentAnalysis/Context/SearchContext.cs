@@ -11,10 +11,6 @@ namespace SentimentAnalysis.Context
     {
         public DbSet<Search> Search { get; set; }
         public DbSet<SearchResult> SearchResult { get; set; }
-
-        public SearchContext(): base("SearchContext") 
-        {
-            Database.SetInitializer<SearchContext>(new DropCreateDatabaseIfModelChanges<SearchContext>());
-        }
+        public DbSet<SearchScores> SearchScores { get; set; }
     }
 }
