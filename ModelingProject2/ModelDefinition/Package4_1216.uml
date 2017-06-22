@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="82bff201-3ca0-43ae-9a87-3b72f01d6fa8"
+  name="LogicServices"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0f5432d4-b88b-4f27-8535-fa52fa69e165"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSentimentAnalysis.LogicServices"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6e749472-2e2c-47c0-8619-e5c516b9eea8"
+        name="BingSearchAPI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="60d1527d-cbad-4cbe-b93b-9f2af71a08ed"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.LogicServices Type%3DBingSearchAPI"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b437e021-6865-4f17-ae66-a529d9940a24"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dee27c5d-446d-4e00-bc69-ab6a880868b2">
+                <propertyInstance
+                  Id="918313b2-91e5-43a5-83df-85055abd8190"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f96dd6a-8dfd-44a8-b340-3bfb0aa36c05">
+                <propertyInstance
+                  Id="5beb732d-7a01-458d-a77e-c7d20592339d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f2e8aeb-ec55-4485-a640-e0b7e897b34b">
+                <propertyInstance
+                  Id="4fd4721b-8387-4d6e-a787-639a0521912b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="091f169e-4d49-43aa-83bb-bb063f833460">
+                <propertyInstance
+                  Id="a7013d2d-8151-464f-ae79-35c1602724fc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="506ee00e-50db-4954-bfcc-0e81c49e2d58">
+                <propertyInstance
+                  Id="98e6a58a-c99d-4706-a19e-5679e87e444d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e82cdab-7374-424e-8ced-90b1dbb45d3d"
+        name="BingTextAnalyticsAPI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="114093c4-d16b-4afc-8faa-5484aa7f54ff"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.LogicServices Type%3DBingTextAnalyticsAPI"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="89bccf8a-1f74-404c-8b78-4115b3ec7e53"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a53421d-eb3b-440d-908b-a8d2856e65a7">
+                <propertyInstance
+                  Id="4bd6573e-e52c-4eb4-a5ae-858758ca64d7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e288d5c6-dd5c-4d4b-b177-5b370eb1c8e8">
+                <propertyInstance
+                  Id="b08c786f-6a53-467c-9b25-ab18ff07ae11"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="406c8a40-f5bd-43b1-b8e8-47c0e7a5b7f0">
+                <propertyInstance
+                  Id="4e6d4250-1428-4dc7-8b29-36f6b17b7c5a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8f73765-d6d7-4c33-a669-40edaacbbbc9">
+                <propertyInstance
+                  Id="3da7f672-3b9c-4752-9137-6a5433f078e0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="715a5c89-71e2-4d66-b701-5ecfcdd8e7d5">
+                <propertyInstance
+                  Id="c46c3c4f-2846-42a9-9cc7-3797bb976e32"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

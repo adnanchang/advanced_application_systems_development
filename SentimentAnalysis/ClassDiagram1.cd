@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SentimentAnalysis.Controllers.SearchController">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAAEAAAAAABAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SearchController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BingSearchAPI" />
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SentimentAnalysis.Controllers.SearchResultController">
+    <Position X="6" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAAAAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SearchResultController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+      <Field Name="TextAnalyticsAPI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SentimentAnalysis.Controllers.SearchScoresController">
+    <Position X="8.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAAAAAAAAAAAAAAEAAEACAAEAAACAAAA=</HashCode>
+      <FileName>Controllers\SearchScoresController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SentimentAnalysis.LogicServices.BingSearchAPI">
+    <Position X="18" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogicServices\BingSearchAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SentimentAnalysis.Context.SearchContext">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Context\SearchContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SentimentAnalysis.LogicServices.BingTextAnalyticsAPI">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogicServices\BingTextAnalyticsAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SentimentAnalysis.Models.Search">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SentimentAnalysis.Models.SearchScores">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\SearchScores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SentimentAnalysis.Models.SearchResult">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAgAgA=</HashCode>
+      <FileName>Models\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

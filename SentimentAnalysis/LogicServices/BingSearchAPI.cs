@@ -17,14 +17,14 @@ namespace SentimentAnalysis.LogicServices
             var queryString = HttpUtility.ParseQueryString(string.Empty);
 
             // Request headers
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "022013306e6b411fa0c5f3a755d0bca6");
+            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "fd88ac234d0e4e56bc3b1ef8c984b71d");
 
             // Request parameters
             queryString["q"] = Search.keyword;
             queryString["count"] = "100";
             queryString["offset"] = "0";
             queryString["mkt"] = "en-us";
-            queryString["safesearch"] = "Moderate";
+            queryString["safesearch"] = "Off";
             var uri = "https://api.cognitive.microsoft.com/bing/v5.0/search?" + queryString;
 
             var response = client.GetStringAsync(uri).Result;

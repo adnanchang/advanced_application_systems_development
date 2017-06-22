@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a2d4e733-7d7f-4756-b70e-140b6762363f"
+  name="Owin"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bf5d26dc-6977-4687-aa71-359a3e996274"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.AspNet.Identity.Owin"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="7136cc4b-d57a-4831-9cb2-158d586f3a4e">
+      <profileInstance
+        Id="347ed21c-19b2-4256-808e-b68d648e34b4"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fcb708fb-1093-4b21-950c-80fbdc348d90"
+        name="IdentityFactoryOptions&lt;ApplicationSignInManager‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f3494b0a-312f-43de-8ea2-39c8f76b6aa9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="67b3692a-5958-4ffe-849b-1b2712896bb4">
+                <propertyInstance
+                  Id="5461fa9a-4163-4840-ba05-22e58d11cebb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb3a26af-2b22-45d6-a896-79fe9fb1fc39">
+                <propertyInstance
+                  Id="b00e8c72-5b59-4f63-bb39-01d373972140"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7884cb2a-f132-4558-9e74-aed808d7be4e">
+                <propertyInstance
+                  Id="95c6d600-49a9-4948-83b4-c67800e824dc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3463f1d3-66fb-4308-a7e3-cc178c131ca5">
+                <propertyInstance
+                  Id="84573f4d-f6aa-438e-9716-d5718ca2fae4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef9d2110-16aa-4f6e-908b-e7c9e751ba7b">
+                <propertyInstance
+                  Id="54252e6d-2dfb-4423-b67e-630a12a6497c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="bdd005fc-1209-4de4-a4c6-6dd7d1490faa">
+            <redefinableTemplateSignatureMoniker
+              Id="5f6b8005-32ac-4f28-a4fc-b7fa1397ae4f"
+              LastKnownLocation="Package12_1215.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="c81bd53b-ee32-4b1e-bc20-5f45dc726217">
+                  <actuals>
+                    <classMoniker
+                      Id="34a32fcb-4ba0-476a-a7fd-29c709ce69b2"
+                      LastKnownName="ApplicationSignInManager"
+                      LastKnownLocation="Package_1215.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="9ae939bd-e1dc-4799-86b4-dc5210b3aa5c"
+                      LastKnownLocation="Package12_1215.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="82502211-b42c-4275-8d9b-72b90d5706b1"
+        name="IdentityFactoryOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8c28de7d-169e-4728-96d9-47d7955b863f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Identity.Owin.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Owin.dll&quot; Namespace%3DMicrosoft.AspNet.Identity.Owin Type%3D(Name%3DIdentityFactoryOptions GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e1a7820a-bf9c-43e6-bbb2-26e629badd85"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="015f4c05-e3d3-4399-828e-a32a5fb7e9bf">
+                <propertyInstance
+                  Id="fac6421b-e3e9-413d-93d6-649771e9b0b3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="afc8ed5d-28f4-4d72-b363-bbf5bdea216d">
+                <propertyInstance
+                  Id="4a79133e-c2be-4647-939a-1d60f14f43c3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49f77806-dadf-4021-8286-4fd16561cd9a">
+                <propertyInstance
+                  Id="01f719ca-ce9f-4799-a251-452e39b73ef8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c32e2d16-bcb4-4743-9f32-97b8087f4f38">
+                <propertyInstance
+                  Id="98113507-7565-4e9a-a93c-3c2362dbe9df"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f238e184-d21b-4aab-9680-b83a1644ee19">
+                <propertyInstance
+                  Id="c22496ff-162d-4efb-9593-f8b64a2b8a33"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="5f6b8005-32ac-4f28-a4fc-b7fa1397ae4f"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="9ae939bd-e1dc-4799-86b4-dc5210b3aa5c">
+                <referencesInternal>
+                  <reference
+                    Id="532ea4a6-c128-4e4a-8142-301a3cd803a7"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Identity.Owin.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Owin.dll&quot; Namespace%3DMicrosoft.AspNet.Identity.Owin Type%3D(Name%3DIdentityFactoryOptions GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="c5bbc4f1-24dc-4805-877b-65517f637dd3"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e32ef169-b964-41c7-a139-0467d7628adc"
+        name="SignInManager&lt;ApplicationUser‎, String‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b6448650-360a-4173-bc0a-1f15c03a4554"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fea8be45-1d24-4649-be1e-7ae81d7294d0">
+                <propertyInstance
+                  Id="4f7a60b7-da65-4350-aa2b-1967796e47c0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff8b63f5-bcd9-40fb-81d6-0afef69d47e3">
+                <propertyInstance
+                  Id="83e2eec1-d8f5-4807-8e33-64e9dcdffd88"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e47c68a7-c974-4cc3-aac4-28ab3a6b6357">
+                <propertyInstance
+                  Id="541e11a1-8ae1-4803-a82b-112f3ab028ff"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a63028b9-9931-4bc4-b763-16c87a0e2fde">
+                <propertyInstance
+                  Id="b99c24ea-df6f-4403-a961-6514345bde8b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c32581a-a3a7-4a68-bfd3-7032150b196a">
+                <propertyInstance
+                  Id="8348c63a-2301-45a2-b79f-8ab7f26765e0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="52b2523d-2a90-452d-bf9d-881cecc42b9f">
+            <redefinableTemplateSignatureMoniker
+              Id="6747ab93-7537-4cf9-83ff-32a486873da3"
+              LastKnownLocation="Package12_1215.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="fc589186-8023-461a-8531-b70f881948bc">
+                  <actuals>
+                    <classMoniker
+                      Id="5f580eb7-ab83-4aef-b936-db0a9e640540"
+                      LastKnownName="ApplicationUser"
+                      LastKnownLocation="Package9_1215.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="eb7e6a62-41b9-4551-a8b8-baebde48ef03"
+                      LastKnownLocation="Package12_1215.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="be2063ff-376b-4438-b6e6-9d1a709e587f">
+                  <actuals>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="85f9b9b4-2f08-49fe-806f-18ed9e7ccc3e"
+                      LastKnownLocation="Package12_1215.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c73e6dcf-2e47-4081-b36e-519968f44fa8"
+        name="SignInManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="46ea1907-be48-4ab2-ac35-5aae167c6f85"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Identity.Owin.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Owin.dll&quot; Namespace%3DMicrosoft.AspNet.Identity.Owin Type%3D(Name%3DSignInManager GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e295c5ac-58ad-48e4-8c37-11562d47668c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa50c8b8-ca7c-44d9-b96a-1e7e7d603ea4">
+                <propertyInstance
+                  Id="de6a968f-a9ed-4a2e-817c-1913f1741912"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd7024bb-7e0d-4977-90db-09edaa867de5">
+                <propertyInstance
+                  Id="dddf23db-eb25-4942-98e1-87dfc0452184"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a017d0e3-4b12-4da7-9ca6-c9d3427295c6">
+                <propertyInstance
+                  Id="3d08f57b-83be-429c-a631-4cd2f69eb3a2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="305178cc-9d2a-4d0d-b889-c638c4b13fb0">
+                <propertyInstance
+                  Id="917e9099-e746-4dc5-9c4e-b205704aa074"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4917993-6d31-406a-8849-4515b2234a5d">
+                <propertyInstance
+                  Id="f61f8224-41eb-48cc-adf0-86bd82ec274e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="6747ab93-7537-4cf9-83ff-32a486873da3"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="eb7e6a62-41b9-4551-a8b8-baebde48ef03">
+                <referencesInternal>
+                  <reference
+                    Id="d6e56e6b-38a8-478b-9a3a-4d12b9bc8423"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Identity.Owin.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Owin.dll&quot; Namespace%3DMicrosoft.AspNet.Identity.Owin Type%3D(Name%3DSignInManager GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="dff3ac0a-1322-43d3-9a27-6f8a2eca4a77"
+                    name="TUser"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="85f9b9b4-2f08-49fe-806f-18ed9e7ccc3e">
+                <referencesInternal>
+                  <reference
+                    Id="c2b82638-c7bb-4551-b330-b42476157ca2"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Identity.Owin.2.2.1%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Owin.dll&quot; Namespace%3DMicrosoft.AspNet.Identity.Owin Type%3D(Name%3DSignInManager GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="f4903763-3157-4e7a-b873-2994b7bd703b"
+                    name="TKey"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b1c92a1f-0a15-496f-afcb-badf6871e3cc"
+        name="IdentityFactoryOptions&lt;ApplicationUserManager‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e8c47779-8c7a-4961-8861-ead244d000b5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9e6e7b3-30a0-40a4-9703-aa6ccc1dd91a">
+                <propertyInstance
+                  Id="0f817c8f-54a2-4e73-9240-ea90ad6b0693"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49203dac-47a2-4877-8e32-4d389ed73d52">
+                <propertyInstance
+                  Id="3e2f5ec5-2ea0-4794-ad20-deefa5e58eea"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="404edca5-fc3b-4584-8620-4a3a2257f673">
+                <propertyInstance
+                  Id="c0ee22b0-9933-43ad-994a-8255122ed772"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66cff509-2bc8-4ef2-b941-d1c44e4eb1d7">
+                <propertyInstance
+                  Id="fe216848-f43c-4e8a-b2e4-a4863988451a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26c8c49b-275f-4588-9e8a-72b736be98d9">
+                <propertyInstance
+                  Id="323f353d-a2e9-4f84-8b06-cd2ae348b790"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="a7cd1800-9e95-41b4-bd69-1dfbd678ea15">
+            <redefinableTemplateSignatureMoniker
+              Id="5f6b8005-32ac-4f28-a4fc-b7fa1397ae4f"
+              LastKnownLocation="Package12_1215.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="0e5e408e-19ea-4607-a5b0-75af1e26546d">
+                  <actuals>
+                    <classMoniker
+                      Id="60735afb-46a6-46a9-9625-7840b14d4d9b"
+                      LastKnownName="ApplicationUserManager"
+                      LastKnownLocation="Package_1215.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="9ae939bd-e1dc-4799-86b4-dc5210b3aa5c"
+                      LastKnownLocation="Package12_1215.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

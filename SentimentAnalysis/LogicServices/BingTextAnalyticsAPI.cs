@@ -18,7 +18,7 @@ namespace SentimentAnalysis.LogicServices
             var queryString = HttpUtility.ParseQueryString(string.Empty);
 
             // Request headers
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "6b35e11b79b84404b6f3508910c11434");
+            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "cb982074d3c54d9bb86f046bb67a4fa7");
 
             var uri = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment?" + queryString;
 

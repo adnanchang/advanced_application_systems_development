@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c8f2e30a-1e8e-4671-86f1-63d9f1697cfb"
+  name="Owin"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="afe35de4-0bd7-444f-bb6f-9c72a625136d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="bedd7828-b788-4a47-8062-ac69968c6b8d">
+      <profileInstance
+        Id="91c0ddaa-884a-481c-bb39-c83c7e32322e"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d7808ff1-f745-409a-931c-224fef13519a"
+        LastKnownName="Security"
+        LastKnownLocation="Package3_1215.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="08a31020-5e64-4d4d-93e6-3e81a68f5806"
+        name="IOwinContext"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="dcde0d11-6524-4827-8555-461462b478e9"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll&quot; Namespace%3DMicrosoft.Owin Type%3DIOwinContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="27110d5c-f008-4abd-a92f-bb59b896fd01"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="921b7415-0955-493c-a884-ab40caf29f72">
+                <propertyInstance
+                  Id="13260ae4-85da-4d85-bc44-43d5f7a3261a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ed823aa-e24e-43b6-91c6-1da9c071cb7a">
+                <propertyInstance
+                  Id="d75f083b-01a2-4c5b-9c32-579354cff5d4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ebc7f64-598a-4f74-b0af-35b9a4358eca">
+                <propertyInstance
+                  Id="57526745-69fe-46d4-915d-ea1c227d4ea5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb7eb4e1-d21e-43d0-babd-bc4dc501a887">
+                <propertyInstance
+                  Id="ae3a19e1-df31-4b82-99da-6f445d8b6599"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

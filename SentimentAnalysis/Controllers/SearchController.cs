@@ -44,19 +44,39 @@ namespace SentimentAnalysis.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
-                if (ModelState.IsValid)
+                var listOfKeywords = db.Search.ToList();
+                bool needToSearch = true;
+
+                foreach (Search item in listOfKeywords)
                 {
-                    List<SearchResult> SearchResult = new List<Models.SearchResult>();
-                    BingSearchAPI.SearchKeywordInBing(Search, SearchResult);
-                    Search.searchDate = DateTime.Now;
-                    //Search.searchResults = SearchResult;
-                    db.Search.Add(Search);
-                    db.SaveChanges();
-                    TempData["SearchResult"] = SearchResult;
-                    return RedirectToAction("Create", "SearchResult", new { area = "" });
+                    if (item.keyword == Search.keyword && ((item.searchDate - DateTime.Now).TotalDays < 30))
+                    {
+                        needToSearch = false;
+                        break;
+                    }
                 }
 
+                if (needToSearch)
+                {
+                    if (ModelState.IsValid)
+                    {
+                        List<SearchResult> SearchResult = new List<Models.SearchResult>();
+                        BingSearchAPI.SearchKeywordInBing(Search, SearchResult);
+                        Search.searchDate = DateTime.Now;
+                        //Search.searchResults = SearchResult;
+                        db.Search.Add(Search);
+                        //db.SaveChanges();
+                        TempData["SearchResult"] = SearchResult;
+                        TempData["Keyword"] = Search.keyword;
+                        return RedirectToAction("Create", "SearchResult", new { area = "" });
+                    }
+                }
+                else
+                {
+                    TempData["Keyword"] = Search.keyword;
+                    return RedirectToAction("Index", "SearchScores", new { area = "" });
+                }
+               
                 return View(Search);
             }
             catch

@@ -53,7 +53,7 @@ namespace SentimentAnalysis.Controllers
                     }
                     TextAnalyticsAPI.Sentiment(SearchResult, SearchScores);
                     TempData["SearchScores"] = SearchScores;
-                    db.SaveChanges();
+                    //db.SaveChanges();
                     return RedirectToAction("Create", "SearchScores", new { area = "" });
                 }
                 return View(SearchResult);

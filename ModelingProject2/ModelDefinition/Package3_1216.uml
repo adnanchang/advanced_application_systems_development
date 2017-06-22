@@ -1,0 +1,3271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="954dbed4-18cc-4119-a119-1bd096b2545a"
+  name="Controllers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ce732df4-c0d5-4013-a004-d736eeced05d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSentimentAnalysis.Controllers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="75f1c47d-134c-40f4-b9fd-c71937703e34"
+        name="SearchScoresController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4f989032-7775-4375-8fde-1bbb0f05509d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="16d70622-a080-4d23-8231-33ab80a2ac04"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04968158-cc30-4de4-be8e-10de05c932ba">
+                <propertyInstance
+                  Id="2791a01a-85bd-4bc8-80a5-2bd39f69de45"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ba38471-f7d1-49bc-83ef-98cf286d33b6">
+                <propertyInstance
+                  Id="bfdae284-fd22-49df-8262-3141e9370412"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fa2c694-3ca1-4d97-813e-29305de90af8">
+                <propertyInstance
+                  Id="9279b620-2297-47dc-8786-78b9a73dce28"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92d9b573-b562-44a5-a61e-d9c13c61566e">
+                <propertyInstance
+                  Id="cf212e91-0d24-4432-b47b-c451856367dd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa0508c7-0314-4925-b478-c5c9bf3898be">
+                <propertyInstance
+                  Id="4ca67ca0-783f-41d3-9af2-0f4fcef71cbd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ff0d075f-d76e-433a-aaad-b4370376eb39"
+            isSubstitutable="false">
+            <classMoniker
+              Id="dc7310fa-4851-4a61-8691-ac911ef74802"
+              LastKnownName="Controller"
+              LastKnownLocation="Package15_1215.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8ffa8066-7da6-4a33-8461-d4fef06b688b"
+            name="db"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3a920315-0061-48aa-bfc0-61cdf423a304"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3Ddb"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="22d958d9-ddf9-41d8-9890-2c56a1214b40"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45ad7b07-ee60-4290-b2fe-32cb42cf0978">
+                    <propertyInstance
+                      Id="3cdc88c6-1c95-469c-94d2-949ec673c9a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fbdddd7-f669-47a6-ad0f-232d02f54e76">
+                    <propertyInstance
+                      Id="ac5dfc02-46b0-4826-b2ac-db74fd45f46d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e54981d9-0c4a-4242-9ecd-70f5a4c148b9">
+                    <propertyInstance
+                      Id="0769ff85-6dd1-4ad8-86af-6d117fefc169"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37c2003b-d13f-4602-90e7-9987cd9a3b1e">
+                    <propertyInstance
+                      Id="1f7e7724-d657-413f-adf2-52143cdfb244"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="505ee00a-c5d5-4760-aa6d-38a6055190a0">
+                    <propertyInstance
+                      Id="1283b89b-8953-4157-b580-67c649ece477"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b24fc962-95a9-4a0d-96a5-be37fb8beb50"
+                LastKnownName="SearchContext"
+                LastKnownLocation="Package_1216.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="34779c38-d4eb-45af-82f0-8c12b31aa2dc"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0a9a756d-3f9b-4257-aff4-5bafd8ae4b2d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearchScores)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="459c3971-fb82-48d8-b2c0-283481c2686e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22e5d547-459a-47cd-ade6-913208c1576e">
+                    <propertyInstance
+                      Id="cb65b759-4597-427d-9495-69a80631d88a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f9b1e28-a087-4b4b-b172-e5dd85895177">
+                    <propertyInstance
+                      Id="95417c4e-b619-4663-ad6d-d9663ea4322c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1614fd5b-b441-44fc-bbca-754111f83b1f">
+                    <propertyInstance
+                      Id="7e0b8ed8-55f9-4406-8caa-3aa82f8fc83d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="116f9fdd-a63e-42af-9741-527b96b18d5b">
+                    <propertyInstance
+                      Id="c0079f5f-fc6b-4a0c-9d96-06c30e9c40ce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed990a53-57bc-4b06-8120-57c72892ffde">
+                    <propertyInstance
+                      Id="6b82e489-1780-47a0-b273-04ea499da548"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbbfed50-450f-44ac-b11f-a20de86762ef">
+                    <propertyInstance
+                      Id="1703443d-eb83-447c-9f9e-c3ec152f63f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="782eb961-b95e-4057-b877-1def54d17683"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a240dd66-f9c4-412f-952c-c0d32b986d2c"
+                  name="SearchScores"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bf0b91cb-992b-4929-986d-d5120add3a42"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearchScores)]))]) ParameterIdentifier%3DSearchScores"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9f89ff73-54b0-4e95-b745-b81bf6048369"
+                      LastKnownName="List&lt;SearchScores‎&gt;"
+                      LastKnownLocation="Package6_1216.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5e8f9408-bbe0-4333-bd11-2e233dc81231"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43757031-9dcb-40d9-b519-be784653a059"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f05aff04-8fe6-4b89-9b69-78a6daeac3fd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="551af698-e100-4db1-85ba-6a16581e562c">
+                    <propertyInstance
+                      Id="f41e28da-e1fa-4bc2-bee9-4b95ee2e65f5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b93a11f2-08f7-4a04-8f51-5dbf830194ac">
+                    <propertyInstance
+                      Id="a2953142-d8a8-477b-bd06-46be8259e671"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccf1784c-017c-42a0-9e55-7d535b716965">
+                    <propertyInstance
+                      Id="2aa9b6a3-aa97-4357-a1d3-2a1d9dccd892"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7613428e-1393-47fc-8f31-6f71a623ecca">
+                    <propertyInstance
+                      Id="3fefc67e-b970-4aeb-a323-413f105e3cd5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baa11b80-1d78-40be-9ff9-6cb787a1fb59">
+                    <propertyInstance
+                      Id="d5fdb196-d8c3-4c8c-8471-a6989d3402fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c783579-2b23-469e-86ef-0eea1a90496a">
+                    <propertyInstance
+                      Id="8e779a99-cf75-4c51-8520-de6af3634a86"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2ce19f8a-4b80-4684-b580-5110c796e93a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="448d1c73-d314-46fd-913b-2ddc41600b4e"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="64eaa53b-6bf4-4927-90a2-e7fa58b107e4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8898faa0-ff05-4c2d-9b53-ea0d7cd319aa"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="159ce454-bcfb-4ed0-8666-67833f5841ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c2aa090c-97e1-4076-8815-b94730db377b"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1c7dd10e-5053-4a80-892a-dbfe2dbb842b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="214ad8b8-6abc-4271-a9b2-b75727d63502"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dfeb8f1-813b-43a3-88ce-be295acb4871">
+                    <propertyInstance
+                      Id="db07e582-c7a7-45c9-b8d2-1a73e72e5598"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b2b0ff7-dd47-46d4-91ef-db27de1feea3">
+                    <propertyInstance
+                      Id="910fba5c-66d0-4ebd-99ea-53f5e98553f1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f464ef6e-96f0-4627-87d3-9def549def7b">
+                    <propertyInstance
+                      Id="f55ac8af-1e57-471b-9e2f-5f34fb9451e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d354338-e558-471d-9712-6e2ee70cdcf5">
+                    <propertyInstance
+                      Id="1a1b40f3-897f-4c2b-86e2-fceb8ab40661"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2db12675-74ad-4b40-a7a6-9a521915a498">
+                    <propertyInstance
+                      Id="95ef6611-5c83-49e7-a5ab-f5ade91c3898"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3ab7c2a-7a41-47ed-bcd4-4f879b7b2273">
+                    <propertyInstance
+                      Id="d8e98b2f-ecf1-42cd-9bbb-49f1b9b272f3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d05eecd5-6a3f-4f25-aea0-e59bcc6fdbfa"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da4474e5-0f1a-401a-a849-11f36dbaf9af"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="00d7b1c8-e87f-49d9-aa2c-18057a9fc382"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="16e5e1f8-01f3-4b89-a27b-b1c0578909ec"
+            name="Details"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f0ecea16-4d61-4dc4-b289-569f0d3bd341"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc92c8bc-4d7b-4996-92c9-7505f034f958"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb2648be-da8e-4b4a-91bb-735b6e3b15e5">
+                    <propertyInstance
+                      Id="464d882b-d680-4359-aa99-a45c54a40dc9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6ce1894-9575-48b7-8b9d-78364ed30293">
+                    <propertyInstance
+                      Id="bcb21c35-a4c9-4f8d-8b70-71050668de9e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4ccf9e8-fb4b-47aa-98b2-9ce70ac9a7e1">
+                    <propertyInstance
+                      Id="e08811f0-b9d4-42f7-9d1f-d265e9384efb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f341b00-1ed6-4d47-9f18-b1aa36b87611">
+                    <propertyInstance
+                      Id="e8d9a5c6-76c0-40a9-b465-e1231a2c643c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="816aee8b-1d12-435f-9100-59b519ddec7c">
+                    <propertyInstance
+                      Id="3cb5561f-549a-4fb5-b17b-6ea75c01177d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e786cc95-fb15-480c-a597-2cec3671d12b">
+                    <propertyInstance
+                      Id="0cb0e114-d7bf-4e4e-b0b3-fd90702e96ba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cc4846e3-bdaa-49b0-938e-f8990511cc66"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9f51a5f-6bba-4125-acf8-fd18d3589375"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e73d67a-e675-4eba-9056-ab65fc0e3609"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3ff78c1d-2789-4a54-bfce-e75613f12dfc"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b32df44-93d7-42cb-bc98-2875cc40a8c2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bdcca4a-1413-4180-896c-dad998529a41"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ca14201-66d4-4d85-b4e8-3f27b076a669">
+                    <propertyInstance
+                      Id="17acc425-b81d-4f0d-9e39-8f868c5a77e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f38bd8a-74c3-4fbc-80d3-01031237b1ab">
+                    <propertyInstance
+                      Id="7d73b955-60d6-404f-88a3-0922640fd23c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="058fb502-a1f1-47d0-869d-5be101cf8294">
+                    <propertyInstance
+                      Id="3f188cac-d271-4121-a11b-fc81f32ba00a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c0d9074-9e31-4c81-b0d5-c5f62822b534">
+                    <propertyInstance
+                      Id="a52109cf-e159-4606-82a9-adebe8632375"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8c346d0-c3bf-4ddf-8536-8673dd6afa49">
+                    <propertyInstance
+                      Id="cbcb5c7a-4482-4dd7-8fc0-49cd67a5c0c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33fdb8f5-9629-4ac1-862c-c2c1f7532518">
+                    <propertyInstance
+                      Id="0bd1a449-352d-46b1-bcd3-3d324b9fc7e1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02e1a36f-78f7-4659-b6a6-dcb7575319f8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3dd5a6fa-3400-4d9d-b839-221ca5515e2a"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cad8ecee-047a-4e3e-8e53-b03500f40f89"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92b82404-6468-4018-a6ea-af1ca742af57"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8798c3f7-c8c7-498f-b0b2-734ca3655ad1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ab99f5a7-5415-4490-9fa6-e5bd7bde5d25"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="471ea626-1777-4600-b41a-1530be006b8c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e958de6e-e897-449a-99bc-81ed9d83329a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="787a7a10-1c1d-4b60-9350-6fa69b592a45">
+                    <propertyInstance
+                      Id="3445be3b-9f25-4bc3-aa5a-2245387028bc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d947366-a843-4676-a3a8-267c65524123">
+                    <propertyInstance
+                      Id="032ea369-0ed8-40cf-9e51-c9fef5f6a8aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b858fff7-38e8-4180-bcba-a5d7c3cac51b">
+                    <propertyInstance
+                      Id="f49a993c-77a5-49b3-a87a-981027c1261b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b879ef7b-a75c-4437-9d5c-c005ef3d509b">
+                    <propertyInstance
+                      Id="7d7ed854-1d0b-4c6f-b70e-f03236b5ac13"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8549143c-7594-428b-8050-a43887203704">
+                    <propertyInstance
+                      Id="4a552e9d-83fb-4876-8dc7-b4ba670ca9ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d6af938-267a-4301-a168-9fbe3ecab3a6">
+                    <propertyInstance
+                      Id="922a0c63-0575-4550-9118-20ec35051b01"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7ff25595-fc49-4f50-a28d-7ccea155ad3f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4f357208-f530-4e08-a456-cf7f652fa3af"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f45a8a81-22af-4e38-b40c-55d35a39ba9e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b774cbf5-db52-4f9a-9889-0b025c703bfd"
+            name="SearchScoresController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="470b68ed-076c-4a8e-8ac2-d1cd5e57ff00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1590bd9b-5256-4f80-9a26-bf60548a794e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a372c8c-074f-4391-8667-afdcf1a59111">
+                    <propertyInstance
+                      Id="466ba850-d334-422e-a973-f7e94b0c8c08"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22fda7f7-acb6-47a0-9eaf-3b6dc7aae9be">
+                    <propertyInstance
+                      Id="4a979c78-674c-4b48-8262-5813d659ff5e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ead43647-ef34-4bf3-8803-400822af6453">
+                    <propertyInstance
+                      Id="548a9026-8ceb-47ed-877b-ee1c76e61354"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="003faaae-ff68-42e2-bc18-95ec134f4c48">
+                    <propertyInstance
+                      Id="f69c6465-4a3a-427f-af47-d16536b2f368"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2168c127-fdc8-45f0-9ddd-06f901f4ef88">
+                    <propertyInstance
+                      Id="a5a6eff1-32c9-425c-94b3-243541a852be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81bb53eb-4fee-46c7-b2a7-a79fc00ef554">
+                    <propertyInstance
+                      Id="0712da30-ec6d-4223-aded-f686f9b6d375"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="028c0c53-422d-4a70-a408-8f4122c8804c"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b0c4f80b-d509-4441-83c9-f543d1749698"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3DCreate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="84ef9789-f6b7-4ff1-9f6f-9c128f38006a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="165669b8-451a-4288-bf30-f8c45841dec1">
+                    <propertyInstance
+                      Id="92bde6b8-3fbc-4542-b3bc-4a967b2cf959"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2eb90005-d54b-4963-bd4b-3fae071503c9">
+                    <propertyInstance
+                      Id="c4802804-016f-43ab-9606-ce40debe6501"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="504aefee-9a49-42e3-95c6-0148c0422868">
+                    <propertyInstance
+                      Id="a13398ac-6503-46ba-9bb4-6b1ccb577e46"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6465a3c-88d8-4213-a32a-52a0d378b892">
+                    <propertyInstance
+                      Id="25fb6770-7538-42cb-b4d3-fc667e84e9ef"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74481b58-f0ce-410b-a1a1-f670de2e058d">
+                    <propertyInstance
+                      Id="b3a86493-08b2-429e-b438-cc59404f7b79"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8aaa824f-3e9d-4eac-8e99-b29246d74518">
+                    <propertyInstance
+                      Id="424b7dae-5ab8-40db-bf81-3f5625c1b5bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f3c9332e-4819-42e3-a1ea-2cca7cacb892"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0c103d13-d558-425b-8cc1-f83667ef56fe"
+            name="CreateChart"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="69ae1099-0b72-4cfe-aa87-782a56e7796c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3DCreateChart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fa9f4e40-7c6e-4656-b194-7a37aed962ae"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="628d7448-3861-4aea-9592-08f8cc84f09c">
+                    <propertyInstance
+                      Id="0fb301d9-3c22-4661-aa74-681aae1f584f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5abcd37a-265a-446d-b11e-f4a27055b12c">
+                    <propertyInstance
+                      Id="85965237-09f6-475a-b6e2-34f76c497d3f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a73d2a13-8ed7-4807-8223-0e5f1e625ae1">
+                    <propertyInstance
+                      Id="cb2da6b8-be23-42df-822d-be353898c888"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="daef1368-3937-47bf-9ce5-70c903f70d81">
+                    <propertyInstance
+                      Id="6604c740-c035-4e5e-9e93-0abdcc3547e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5dc368a-1321-4287-bac9-38c665463eba">
+                    <propertyInstance
+                      Id="3b80cd76-e763-4099-9661-a5878d1ef8f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89018c06-6fb6-415b-8621-21856e1d3243">
+                    <propertyInstance
+                      Id="f29272fb-af3f-49e0-b925-fa86fd03f58f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8be13ba0-327d-46fd-b4f8-b6c01d1bcac5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b13ea2d9-e747-418c-a106-8d5f652b64c5"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c677fe49-e353-4a81-af75-ee628bc56621"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchScoresController Member%3DIndex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6540c019-1672-4092-b538-c88fa8ef05f8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e03f9f70-41e1-495d-a807-9b517c1c6e3c">
+                    <propertyInstance
+                      Id="ca405789-caf2-4f2d-a4e9-4e2864f10d45"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1bea9e9-77b2-4391-9313-9ba515805f86">
+                    <propertyInstance
+                      Id="c0793a89-6122-4896-bb73-8d866d7f00b5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e6f72e4-39c4-4b27-b0a3-a795198eee1f">
+                    <propertyInstance
+                      Id="7b7efa0f-e105-4584-91b7-0c299809fe25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="049b51db-f6d8-4412-ada6-57301abafba2">
+                    <propertyInstance
+                      Id="ff5c6217-47de-4739-b585-01252ace7ef2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f22396f6-4226-47af-8664-65fac11818c7">
+                    <propertyInstance
+                      Id="2d68fb93-b88a-46aa-b536-45d73cafeb37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9331ddf4-0590-405f-a10d-1c3b27f087a6">
+                    <propertyInstance
+                      Id="ff66ec21-29c8-4e7d-98ca-2f01d68c8d1a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7f0208f4-e00c-4ca5-848f-fa7b8d568548"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="69722093-110b-499c-ae5c-d9299bd3af3a"
+        name="SearchController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="016431cd-1b8d-44a3-8c50-a8543cd4b9a9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="03f6ed26-3229-4626-bd23-ddeace0e533f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b737283a-0c72-4f13-8ccc-090b6aeaafc4">
+                <propertyInstance
+                  Id="d5197ddf-a2e0-4d51-b137-a761e4b0f120"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8a259e2-a702-4396-b64b-d35ca636d727">
+                <propertyInstance
+                  Id="bc405d93-cc81-45af-849d-44431e3985a4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aefba855-ff20-46dd-a588-3c7171a83475">
+                <propertyInstance
+                  Id="d0cfa9d8-73ba-4aa5-948d-739de9ad4ce1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b61f3af9-a6df-44bf-b0b6-47705d00b2ad">
+                <propertyInstance
+                  Id="b9e6c6d1-0e24-4114-9764-d71f4e699709"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d43f93c-60c9-428f-ad31-edce0d3c4956">
+                <propertyInstance
+                  Id="cd502725-cfa2-4c5d-9430-44df5abb56d4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="364ca443-c08a-40c4-8dd4-6797e1d668eb"
+            isSubstitutable="false">
+            <classMoniker
+              Id="dc7310fa-4851-4a61-8691-ac911ef74802"
+              LastKnownName="Controller"
+              LastKnownLocation="Package15_1215.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="21ddc41f-aa0d-4738-8b79-cfc12afa2f0b"
+            name="BingSearchAPI"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="913d12c0-7f7b-4754-969d-4e56f7b7c775"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3DBingSearchAPI"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a5ea950-ed95-40f1-b255-9a082cbc6a46"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb300d15-e234-41a7-b5da-5cfaf02a0f74">
+                    <propertyInstance
+                      Id="6fa405de-0455-4279-bf83-2cdd6b701cc9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a038f4fa-6aca-4c41-b939-c868872099ac">
+                    <propertyInstance
+                      Id="a63078e5-1434-4472-a4ad-189e3c450d38"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b18f9be-aff3-43de-9856-eb38ff41c8a6">
+                    <propertyInstance
+                      Id="71f73848-f843-4c27-b6c4-4c039ba38a06"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8936d726-a8cd-45fc-a9c7-4575af54a1c4">
+                    <propertyInstance
+                      Id="e5f3e543-1a4b-40f3-a87d-06e111877677"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aabd5f16-d2b2-4d5e-8bf5-0d2102f96a30">
+                    <propertyInstance
+                      Id="87b873f4-f90f-47bb-a771-2d472a9676b8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6e749472-2e2c-47c0-8619-e5c516b9eea8"
+                LastKnownName="BingSearchAPI"
+                LastKnownLocation="Package4_1216.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="326c7bc2-92e5-4b3e-a9c6-97ff1036b00e"
+            name="db"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b681ca7c-869f-40aa-b8bc-ea338368f351"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3Ddb"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf3ca461-3704-417e-8bb1-4b1600a7eeb2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53cc7560-97dc-49da-9155-15182e0d2acd">
+                    <propertyInstance
+                      Id="f8283501-ca8a-4732-a85f-3f1d0e7db8c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0276d993-ba86-4db9-a37d-a3ec604a1493">
+                    <propertyInstance
+                      Id="9539423d-3602-4960-8590-0774c8c4aa0a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20b49e2a-3d9d-4378-84f2-4673b58cfa38">
+                    <propertyInstance
+                      Id="46de0d50-6bdf-40d5-8fbe-abcad7891834"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4d7381a-7cd5-494b-ac00-4e8d320ae6af">
+                    <propertyInstance
+                      Id="26f8d64f-05da-4d79-9efc-a8415925e19d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="affafe32-fffc-4a99-b12a-8cdf3f610d51">
+                    <propertyInstance
+                      Id="c30bef24-dbdd-4004-b7cf-b46187020456"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b24fc962-95a9-4a0d-96a5-be37fb8beb50"
+                LastKnownName="SearchContext"
+                LastKnownLocation="Package_1216.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0dff34ff-f2b4-450a-a3d9-b54fb0c7e447"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fb477fb6-7774-4afd-869e-360bd5fe213d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearch)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="761e119c-456a-44c7-84e9-fda6a6f0e7da"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9289c19c-f589-4978-a8a7-5c0abb2b5a76">
+                    <propertyInstance
+                      Id="13afbb45-0da0-4830-9f1d-a608828d9bf1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceb348c6-990f-4c09-9f4b-71ddd14893e4">
+                    <propertyInstance
+                      Id="6b54e2af-009c-45e9-879d-e4a47b35e219"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65113105-9075-44c8-9654-43972ff01678">
+                    <propertyInstance
+                      Id="d04271a4-1fc7-4544-b243-e70394cd0c6b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2130fc9-697b-417f-9c04-422f9d21ea19">
+                    <propertyInstance
+                      Id="6861517d-036d-4ee8-83c4-205e3447886b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd06bb53-d77d-4f3d-bae6-c1d816873c59">
+                    <propertyInstance
+                      Id="56c63af7-f124-41b1-bbb1-502f0eb87239"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09224460-f017-4402-9fb3-f729c3855160">
+                    <propertyInstance
+                      Id="ca7d2722-ad6e-4096-9b69-4bb6d2048b79"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e7719cfd-4a65-4846-84a7-d3b8e3578bb4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1b260aa-e739-46f1-a4d2-e3670b80fddc"
+                  name="Search"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7073a6b6-5e14-4cc5-bb83-5d3e80fe1c85"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearch)]) ParameterIdentifier%3DSearch"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="23975b20-8148-42e0-a043-a1b27fb9526f"
+                      LastKnownName="Search"
+                      LastKnownLocation="Package9_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4c1c89cd-7aea-449a-adf7-5de381669cf3"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0ae90658-f711-4191-a145-a859a0c5fdce"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e42e7794-46c3-4021-900d-0863d874dd5d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99cb8378-c0a6-4002-b3a8-1069074a608a">
+                    <propertyInstance
+                      Id="35bf0a9e-4b60-482d-b3cb-473c5071c59c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2073d94b-a265-4f7b-8865-52201c7a6233">
+                    <propertyInstance
+                      Id="aca51c00-3e40-44dd-b013-91f569e1190a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35cb59c0-129d-4862-b526-5d10f1172344">
+                    <propertyInstance
+                      Id="de2eade1-b82e-4a62-b7a8-91d28090a52c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="097af6e0-b7bf-49fa-8ffe-f7fc4b25c31d">
+                    <propertyInstance
+                      Id="1511a043-a7a2-49ba-919b-74b0950d0883"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5504461b-78c6-48d6-9af5-ebc4d9aaba7c">
+                    <propertyInstance
+                      Id="46bb1025-f3c3-4e6f-b094-6d9994f9fbc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dc071d8-8675-4f7f-b0e7-85ad9ea9a53b">
+                    <propertyInstance
+                      Id="6ded57ee-cebc-4f90-8a42-850cabca57fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f926d834-5102-4df6-94f5-2aa23bb698a4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="085664ac-3160-4995-b42e-c2c7e893ecf2"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed4c5bb9-85ed-41de-b65e-c71b5415de69"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fdc27a61-9968-400d-90af-e1b2ee303cea"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="871d346f-95d7-4c86-a63d-b5bc84274c22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7f2efaaa-bb65-4f98-b3df-1de4ff056900"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b05f12e6-e15d-424f-ab6e-9702f4922cf8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2c7d7c7a-96d5-4303-8bd2-5c52e3cf3902"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ce80e00-91cd-4307-bec7-a19e2a0117c9">
+                    <propertyInstance
+                      Id="d3774031-a3f2-4f70-873f-e5c68d60f27b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="857439f3-037d-4efc-a34a-5d1768b60cc1">
+                    <propertyInstance
+                      Id="c29e6c26-ff20-4f42-a6a4-0ed15857c559"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="082ed513-bd28-467d-bc3c-b3248fbff056">
+                    <propertyInstance
+                      Id="3835d575-ac31-42fb-bc94-adeb9d61111e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66978fff-b62d-471a-bfe4-502dbd474b5d">
+                    <propertyInstance
+                      Id="a4ac57d2-2c55-4677-afde-21247205db4e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac8cfc3f-74eb-4c4a-ba56-097309e6b149">
+                    <propertyInstance
+                      Id="5326f2b1-6804-444f-b92b-f767b6994ffc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bed0146-7559-4f1f-bed0-91915b008099">
+                    <propertyInstance
+                      Id="2808f97f-8d39-4b18-90cf-96c836be69c8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df4dd187-044e-487a-a93f-063f615fc05f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fbf1ef8d-9a2c-4934-a12f-cfdf35a201d4"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1b805a23-d6f3-4a9c-bda0-71a4aef5786b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d197d32-ef44-4f97-aec0-34497c17690b"
+            name="Details"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ef6fcef4-6764-4e18-b22f-d93de0e87ad5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4c2ef202-d730-4e54-bc19-32a0258847d0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="574e12b3-04df-4ad8-85fb-dd4d9fd1855a">
+                    <propertyInstance
+                      Id="991db63a-1f84-4a47-8a2d-9917fd75e6e1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caadbfe9-22df-4bc5-a8d1-640a8b53d0a4">
+                    <propertyInstance
+                      Id="04ed091b-dbc9-47da-bc8e-3386b98a5b08"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6b005aa-a0c2-477e-9ab2-f8cdd6c79c61">
+                    <propertyInstance
+                      Id="6440fd30-10df-454e-875c-55dfc505fcdd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e071921d-de7f-4d6e-b655-c3c66130382c">
+                    <propertyInstance
+                      Id="6df20a3a-157a-4606-b9e1-e0dac16c7488"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72515a78-4294-4da3-a01c-75b7f11abfb0">
+                    <propertyInstance
+                      Id="0ede55f6-fddf-41a8-8846-7848a24f3256"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9299d429-7220-49ca-b76d-34d6fbb3c09a">
+                    <propertyInstance
+                      Id="7545ae51-5bf3-4cfb-9061-843eb4206912"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fbea82ba-a4e8-4c3c-81de-f0bd7323e1b0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4d68e594-1b13-4617-8434-514fa84ece74"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="530aa132-0302-4e6f-9ded-8d02e142df00"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1bc3fedb-ea17-42ca-9dab-3cd222aaa56b"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="78d20f4e-5a64-496f-b9ea-8e577229c01e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4567b065-d71b-4d1b-93e2-a573108a6faa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b8e861c-4fa4-446a-886a-c692dd624e23">
+                    <propertyInstance
+                      Id="12b76ef8-e09c-451e-9e5c-490be665bcc6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba6af529-c71f-42e2-a891-1cc23d814a15">
+                    <propertyInstance
+                      Id="f4b420bc-d485-48b4-a8cb-0ffb965b3028"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a629693e-a6c8-41f2-b12c-3f574de266cc">
+                    <propertyInstance
+                      Id="00918c89-4fa8-4736-a07b-dc2b75c663fb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="913db8ee-015a-41b6-bd52-d2035196c770">
+                    <propertyInstance
+                      Id="7e41536e-e5dc-42c0-9bf6-60987def09ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="836f093f-7b5b-494d-874b-706658a85dcb">
+                    <propertyInstance
+                      Id="592aac2e-e72f-4845-a1d9-ecf8c69a8c30"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80821ace-4f06-42de-9e7d-a825b08a2454">
+                    <propertyInstance
+                      Id="b1a017f5-d4c7-4bba-b3a0-5e25db4f0332"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05a91020-d4c7-4d17-a85b-bcb0e4de08e7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4aa934ea-d3d2-491f-8c92-da9c2d75b45a"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d402297d-dfbc-44da-8bfc-e66a890b0902"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae5678e4-957f-45b7-8869-803208f4821d"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="435683ba-e600-496c-9c38-00c31c176a09"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3321b48b-f3ff-4ed2-acec-2f82e7aff2b5"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5f665b77-e9df-48e7-8cc9-32dcc573b8e8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b796f4cf-4aef-48c5-8835-9ac887cb00c4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54c23c09-93be-4ea3-b444-a4423162d153">
+                    <propertyInstance
+                      Id="07c49cb4-a0bd-4311-876d-a3641c3197bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5b10dd0-f2f2-4115-9ad1-dce95062b851">
+                    <propertyInstance
+                      Id="d394903d-d0c9-49e4-ad60-c63be013ca64"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1961ea9-2cb3-4394-9d18-79d83e95912b">
+                    <propertyInstance
+                      Id="311c4f2e-5e75-41a5-aadb-253965b28044"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46a49046-731d-47ec-b04e-46ce0f2b8906">
+                    <propertyInstance
+                      Id="8e4d5f03-0d25-4206-8153-2703b227f0a8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36b6edf5-c1aa-4382-bcb3-38c0dd0fc14d">
+                    <propertyInstance
+                      Id="97edfd1c-26f2-42ba-a0d5-1be06f9b3f18"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5c26d17-6eaa-4e1f-9915-ddc3bdc1e107">
+                    <propertyInstance
+                      Id="b0fb9c8e-beea-48b0-99d1-92883af486d6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02a0a17e-7be2-486a-aebb-6ddd9fe883b6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a54ca613-3d1f-44ca-8352-7580d680070c"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f912b768-a0d4-41d7-b43b-25e7403a9264"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="81a0b0c4-5967-4366-9534-09380c60f04a"
+            name="SearchController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ea92ca45-1a40-4eac-83ee-0f5d1a725844"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a57a6821-330c-4138-9350-d27a2bb0ab26"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f2bacb3-6660-4110-8914-664ba60a0998">
+                    <propertyInstance
+                      Id="ca2e412e-7950-4d3c-8b08-bbb3c89490da"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3c9bab4-abfe-4998-abdf-cd2f1e976d66">
+                    <propertyInstance
+                      Id="c07af35b-c954-4e44-81bf-efa13fedd223"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4964cbdb-714d-44a9-a9f0-c93f171eb096">
+                    <propertyInstance
+                      Id="9a8a2f26-a1a5-444e-97a6-ae3b921d1aee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e3d196a-6964-4076-9778-9f1221a92b56">
+                    <propertyInstance
+                      Id="0c3c2794-fd94-4850-86b7-a7425ffcd1c6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85b3e1d9-6bf3-4262-8444-c76f440587cf">
+                    <propertyInstance
+                      Id="c71d016b-9a6f-432f-9411-e39c7d2ab01f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57bd1748-2974-4b17-a1cf-d5593a0b110c">
+                    <propertyInstance
+                      Id="3f6b7e34-2e5e-42c7-9dc9-e69542f93c56"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2213b955-247f-41f4-b797-31b6f30cea3a"
+            name="About"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="12ce8d4d-4594-4a19-bb5e-8ee0993a5f36"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3DAbout"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10d96be1-63f0-4ff4-b793-939633a7f0bf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36298a85-fe91-44ba-8b07-c1c7618f4b9c">
+                    <propertyInstance
+                      Id="8cc5613c-a32e-4a7e-8ff6-faf491f83140"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f24427b-7650-4194-9deb-ab66fe93c156">
+                    <propertyInstance
+                      Id="5bde3dec-0fac-490e-87ea-a1e102020e21"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb243c13-5a8d-43bb-b83b-ad841a316da4">
+                    <propertyInstance
+                      Id="453b3348-d8ef-4913-9365-a8df849f25eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51e65651-bcd3-4305-a89c-eae59061b67f">
+                    <propertyInstance
+                      Id="b42d5484-6891-4de0-8148-889c74c8f8d6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0afed320-75f1-42cd-9865-7e8629e42f43">
+                    <propertyInstance
+                      Id="c94110ee-a266-43c7-a029-00c09c1ba140"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ae6c235-2e5d-4655-b6a0-4004a018ced5">
+                    <propertyInstance
+                      Id="6ce701ac-970a-41e3-948d-83f8c75548ef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="66861762-b5af-4901-b42b-67af83aa3bc1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7b6ac3fe-5786-4ae8-92c8-aba0186eed7e"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1272d423-8822-42e7-a679-fd2ebfc0fadb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3DCreate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c9721c05-5d56-47b5-ad6b-d76f1825a71d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="857421f2-f9d0-4da5-b6f6-552475c75d3e">
+                    <propertyInstance
+                      Id="5dfcd70e-bc3e-4296-93f9-206e2825b263"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a7ad95a-e1d9-445c-85e5-35c287dbabd4">
+                    <propertyInstance
+                      Id="e011675b-2352-4f43-90eb-c6c200740d8a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3e7f361-4fd1-4d9c-9ba2-d1869124e13f">
+                    <propertyInstance
+                      Id="cf16634b-6919-45bb-a0ff-05078f381556"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d537ebf-0bf2-437d-8415-c93435eaf504">
+                    <propertyInstance
+                      Id="dcd91530-64de-4b01-b41b-b70083c0c118"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00ef9ac6-4dc5-4dc6-bdb7-674c2da3f590">
+                    <propertyInstance
+                      Id="b87f056f-8cff-42a9-af91-3ef93e376fe9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13120cba-f1dc-44b9-94f0-075977dd159d">
+                    <propertyInstance
+                      Id="150a5d58-de85-4306-9b69-ef7ecb1d15b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cd1d6977-1793-4bd7-bb7d-b13dcadf5539"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e92a3196-fc69-4b13-ba1a-cbd25eb371ec"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a423fa6b-2104-446e-9139-4b36cc44c783"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchController Member%3DIndex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e312e838-5d40-430d-85d9-7ad5f9335674"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c70f381-6d79-4359-ae3a-0ed81434536b">
+                    <propertyInstance
+                      Id="69b6d150-0521-47df-baae-0bc4d91d5ef8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c03ee56-d4a1-4af7-b0a2-07647e28867f">
+                    <propertyInstance
+                      Id="0064aeab-3096-42a8-a1b5-a0ad41d9e009"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="687d5e9d-8d97-4222-bd2d-500e01eed55d">
+                    <propertyInstance
+                      Id="5be35444-2fa2-499c-9607-fd0eabd204d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba6e5de-41d1-4f1b-8d10-d8e558ac589a">
+                    <propertyInstance
+                      Id="5ecf82f6-f0de-48a7-95d6-4328179a8c99"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4a41b5b-05a1-41ed-afb0-52ccd505e645">
+                    <propertyInstance
+                      Id="6fc4dc35-6fa5-400f-a8f2-7e62d830383b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40d1287f-c67d-4bf8-a636-f1aa29506cdf">
+                    <propertyInstance
+                      Id="7a9a4576-da74-49cc-97fe-125f6a55eda1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="04fa8220-f531-43f7-bbbd-f6f3e399cc1b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d885cd84-e4b3-465b-b4b3-d1be1afbc873"
+        name="SearchResultController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a4278aa5-c751-4d7e-bd30-7f45657178f6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4a839b5c-70a1-4b91-bd69-07ce00a9e79b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80026d85-e7e4-4cd9-a47a-7f68d55f5967">
+                <propertyInstance
+                  Id="567d6a18-beef-44b6-b07f-1ca4357b47e8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2085ac18-88f2-40f4-90d4-17760c39ccb9">
+                <propertyInstance
+                  Id="7b290022-7e11-40fb-b3aa-6bce0c4cf7e6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3eae9a77-7e68-43c2-9960-593004cf70b0">
+                <propertyInstance
+                  Id="1b0a5ff4-85f1-4b90-9f0e-2bb0066ab728"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c411f587-26e0-4379-b67f-4da837a3cf9a">
+                <propertyInstance
+                  Id="34b56cfd-6fd7-4edf-a014-e542e8d53dec"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="481fd4df-fc8f-4698-ad56-efb4b8ede882">
+                <propertyInstance
+                  Id="79b70c3c-9ede-469a-99c2-069a3b1fbc7a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="6602c722-b069-4e07-a729-d97fbef0f80f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="dc7310fa-4851-4a61-8691-ac911ef74802"
+              LastKnownName="Controller"
+              LastKnownLocation="Package15_1215.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="906cbe4d-c5cd-42f9-9939-640c7b466af7"
+            name="TextAnalyticsAPI"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bce7add2-8e96-4eb8-a4b8-23da475d2218"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3DTextAnalyticsAPI"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b6c956a-0651-458b-9219-1032ceeda0f5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7954511e-ab35-4aee-a307-9af88d320c99">
+                    <propertyInstance
+                      Id="e9730f8d-ca24-49fa-9e5b-a8d30fc061e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a62b4dee-8d9b-4e5d-b2a1-0b3c5ac8e139">
+                    <propertyInstance
+                      Id="9b65d12e-9429-4f92-a7fc-2727160da146"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a69a74e-5b2e-44b7-bf01-9e21d5efff91">
+                    <propertyInstance
+                      Id="5cadfc28-5e23-4b2a-ba38-e92d257188b0"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ced0e5b-0054-4fa6-8cd2-e48992abeff9">
+                    <propertyInstance
+                      Id="3cbf0d04-1ab3-4c67-91dd-6d6ae2bc1989"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95d42b2f-b871-40a1-bfd4-6974bd5972fc">
+                    <propertyInstance
+                      Id="918f8cf9-d2f1-4b9f-aacc-6ea1faa8a8a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8e82cdab-7374-424e-8ced-90b1dbb45d3d"
+                LastKnownName="BingTextAnalyticsAPI"
+                LastKnownLocation="Package4_1216.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="46f08653-a4f2-45ed-81f8-5eede5d805e1"
+            name="db"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0979aaaa-ccbd-4bff-b83e-c910a732976f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3Ddb"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36ff10fd-1812-4def-9306-1ecea416b9a9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2c8b64f-dbd3-4723-8a1e-f86fd4b75dba">
+                    <propertyInstance
+                      Id="6b59f02b-3d18-4fd3-bb0d-a4829ed09ab4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="113e6a6f-4dc0-4944-a1fb-a1013b4b0ffa">
+                    <propertyInstance
+                      Id="7601b7de-1f70-414d-88c0-d009b0f24a65"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98e3cf2f-14b1-4111-92ce-a61ed50a8ed3">
+                    <propertyInstance
+                      Id="507cb77b-7825-4703-8e6c-8332fd8b6c05"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56780cb2-c653-4c31-bc5d-1ebfaa43f51e">
+                    <propertyInstance
+                      Id="e09d02ae-e399-4a9a-bdbc-be332bfb1df1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4fe7c70-38bc-4172-975a-f67a3090a35f">
+                    <propertyInstance
+                      Id="95c10f60-6119-4fe5-a1ba-6e445773b55e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b24fc962-95a9-4a0d-96a5-be37fb8beb50"
+                LastKnownName="SearchContext"
+                LastKnownLocation="Package_1216.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="902862f4-6f54-46b5-8470-68cf75053b6c"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ac393735-f68f-46e3-93a7-2a0e5fc44502"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearchResult)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="009295ec-ec4e-4bee-967c-fc1e744b7aba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fe668e4-e3c3-4620-8097-cea3d3a678f2">
+                    <propertyInstance
+                      Id="1a65bfab-01e0-4160-a4b8-0aa51f099175"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d14a0072-fdb9-4d14-ba26-9a7d327307e8">
+                    <propertyInstance
+                      Id="f6e88795-283c-4433-a649-e3ede84f43e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="853f4e7e-e8b9-4fda-8da8-25b0de2e2d9d">
+                    <propertyInstance
+                      Id="afd0dfea-d79e-4b4c-9b61-94ef3db9c047"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c28c4d47-aa3e-4537-9f71-06aa4a9457f7">
+                    <propertyInstance
+                      Id="58507998-c749-479f-95bb-2aef303111cc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="872a3355-00b0-4aa9-bd6d-be0fde1b9b46">
+                    <propertyInstance
+                      Id="126c6817-1e41-4e46-8d86-bffad944d92c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21a2efd0-b9a6-44d8-8a64-35e12189c154">
+                    <propertyInstance
+                      Id="114b58be-ec66-47e8-9fc5-dc2c10cf51f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="234f4254-4ab5-4ff0-a934-a83c0d6ac0b9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f7c472f8-bfdc-4703-843e-3c17242a1e84"
+                  name="SearchResult"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c04c54ad-8abe-4d5e-b8ed-746b99e39bc1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Models Type%3DSearchResult)]))]) ParameterIdentifier%3DSearchResult"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="47011bf9-1610-4eb8-b5aa-79d5ed4e3b0d"
+                      LastKnownName="List&lt;SearchResult‎&gt;"
+                      LastKnownLocation="Package6_1216.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cb3da051-1d9d-4a31-ab21-5a5ed8981534"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a9d833d1-a927-465e-8bc6-a52b675b5ec9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1eccf50a-a1ac-4839-bfbe-ab3a35d43a8e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f476480-b367-4672-97cd-c1879fbb5e11">
+                    <propertyInstance
+                      Id="60b95bc3-7f78-4e15-ab86-ce112a4d2f26"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f85b5e6-f10c-4c80-be51-db7529d0e1d5">
+                    <propertyInstance
+                      Id="32059773-01e3-4aff-a087-529aaa3ed7e1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d9f17d8-a4d2-4cf9-9425-9c1b04b989d6">
+                    <propertyInstance
+                      Id="df15032f-d2c7-46be-9d2e-f861d6166b0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b2b78c3-a5fc-4c4b-b303-d7fdbf476bfb">
+                    <propertyInstance
+                      Id="73419057-f966-4533-ba2b-681c6eb83c37"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbb7a5b5-4b22-42d5-b9aa-f01f6115d14c">
+                    <propertyInstance
+                      Id="169f24f1-7947-4a81-87d6-ba0a3cafc020"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fc85ca6-4ff0-481c-90ca-3e5b11398787">
+                    <propertyInstance
+                      Id="0e996f7f-1af7-428f-a4ab-91b600dfa21b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51741672-2b61-42f1-91a7-af1b3ccf3afa"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ada5c65f-e261-4970-9768-8568cdf3b17a"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9b75cf06-4399-4827-88de-9edaa4e8f7ba"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="637a7065-e44b-47c7-b9cb-a0c782fcc82f"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d6bf0095-be56-4e43-936d-723980bd79da"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7a3172cc-dd06-43fb-82b6-f98a27c91c85"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dc7564c9-3673-47c0-8330-2842b2879d40"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="024d5be0-4bb1-4696-bf67-4514b73825e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3d3853b-07dd-4f5a-815a-6f81b14d5252">
+                    <propertyInstance
+                      Id="36ab3262-98d2-447b-8188-9d4db2861232"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5344472-eaf8-4ae1-b31f-51f6c6916274">
+                    <propertyInstance
+                      Id="2c4a50c9-3a8f-4b80-a6c8-0d1117fb69e2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7385e89f-37ef-4e6d-a95f-af6835b94ede">
+                    <propertyInstance
+                      Id="8eb1fcf7-cb85-4def-8541-2ef02d0d78dd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e0a8d28-fff7-4266-8498-28d51df36802">
+                    <propertyInstance
+                      Id="68fa442a-e80e-4e68-beb1-44dda9945cf1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0c376cc-f02c-4809-ae5f-e44d3e91473b">
+                    <propertyInstance
+                      Id="a900ebbc-2060-4f0d-9aa6-11e702682789"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36c7a9fa-928f-4960-a493-158f3bc737dd">
+                    <propertyInstance
+                      Id="b2a00fa9-c532-4430-8473-6338ba54312d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="40c042bc-253a-47c5-8b9f-ae6d66b87d97"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0254cb19-3049-4fa1-a595-54e405c7cf4d"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f11ebcfe-d154-43a4-b9ef-f0c6735d0b85"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="80c64449-ae36-4590-83f3-c71edb0f8800"
+            name="Details"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="348ec378-4474-4624-aaaf-f7ec2a5e5173"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df522ee1-db9a-4d72-9572-120a7e72f8d2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99855224-cac7-4cf9-bd9a-82617cf546c4">
+                    <propertyInstance
+                      Id="860d768c-6bea-4ad2-a3d5-eec6482f0add"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27f58082-3759-46a4-8af3-0d65a740a0b5">
+                    <propertyInstance
+                      Id="6a134902-0133-47c9-9491-81cf7abe3dd0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ab065fa-46ee-418e-b8b8-07b8281fbc27">
+                    <propertyInstance
+                      Id="5892b5ad-33ae-4f39-ac8a-719353734dde"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dd7f682-8539-4119-965b-685ad8990f47">
+                    <propertyInstance
+                      Id="91ed32c3-754d-4dae-937b-6587e4bf0e8a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fff967de-8cae-4e1a-8853-b6061dc3af2d">
+                    <propertyInstance
+                      Id="c70f460c-8499-448c-ac4b-ae3f82a61e4e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="126eb5f3-2ed1-4d12-8028-dc60c9caa527">
+                    <propertyInstance
+                      Id="f6c0ff1b-2c6c-4fe3-8365-c560d1ceb7ad"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e30e3296-c1b0-49fe-9499-95b26d50f5b3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2eb6a59e-cd83-49eb-87c1-7a314017b4f7"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="117805a7-e92e-4682-82f5-b8ed7bb43086"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DDetails OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="edc47ec7-66b4-4bb5-8b09-8918c3746798"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="95d5b96d-add4-4756-9a21-50b8676a4356"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02455d26-6374-4466-8d27-df2c2573ba98"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8810e781-aec8-4e32-8470-7ad8a94f9bb4">
+                    <propertyInstance
+                      Id="73925c02-4576-422c-be52-772b014919c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bbffefc-d33f-418d-936a-305bb09aa552">
+                    <propertyInstance
+                      Id="d5376c42-aaa1-4731-8017-90a82008f593"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18bb1205-9028-483b-80dc-79953bb509bb">
+                    <propertyInstance
+                      Id="d77667db-4730-4ae0-b049-f621b67719a7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba6c7ded-e09a-4b3c-973a-abb4650b4985">
+                    <propertyInstance
+                      Id="3c188399-8989-4e43-9616-02724233fd07"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fff7769-6c8b-4b8b-9bfe-c4fafcfd4065">
+                    <propertyInstance
+                      Id="1da879fb-ca8d-48c8-b4b2-1b369fe077da"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a21a5f5d-28a4-4659-bb42-8448dc9d5025">
+                    <propertyInstance
+                      Id="31426cf7-a83f-4095-a08b-8e75d19687b0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82d17f77-f2c8-4554-abc4-0b9628432122"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d314680f-c902-44f2-b8f8-271dfe363f37"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ff386911-1b3b-430d-907c-9325d7284422"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="95059bee-cf4c-47cf-8fe6-a26538126cc5"
+                  name="collection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f7d088d7-9af4-430a-b3f7-2d6f2fd5d730"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DFormCollection)]) ParameterIdentifier%3Dcollection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4424b27f-2173-4d55-bcf3-250004977aaf"
+                      LastKnownName="FormCollection"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e6a036b9-be9c-4f9d-98ab-c27789b6661e"
+            name="Edit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="55866684-b17d-4d72-bce4-bdbc305baaa9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d377b640-0a61-4ce8-9376-1bbca346a100"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3542a9a7-4c8e-473e-b347-837b9133a063">
+                    <propertyInstance
+                      Id="36d38280-e467-4939-aaeb-24790b920513"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ad210c0-8b3c-45df-a9b9-57fe7e35dc09">
+                    <propertyInstance
+                      Id="38aadd4e-043c-4673-98f4-7345d75bbcaf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b482a930-3d3c-49ec-b2f1-9f562d69f960">
+                    <propertyInstance
+                      Id="ba55eaa1-ec9a-43c7-aa75-0b843590c4b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf248f22-c4ef-4d81-9d0c-77c8056bdbba">
+                    <propertyInstance
+                      Id="cea0e449-e33c-4b75-ad9d-1d0eb5c40c08"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85321545-8b48-48ae-b500-f07c535d37cd">
+                    <propertyInstance
+                      Id="224e3af3-b70d-4676-ac2a-eee68003b852"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a32769dc-bef5-4959-bed5-eb95119965ed">
+                    <propertyInstance
+                      Id="a3b1eb04-34f9-4b3e-b6bb-8e08b868a5e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e628e921-fcb5-4da3-8547-c98ccb90b780"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="824a3eaa-c27d-44a0-8692-6f64cf1a8358"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c7a91a05-d5e9-4d2a-bb55-cae07c5b21a2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D(Name%3DEdit OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c25bfb2e-48f0-4205-9a95-63c0b3483e42"
+            name="SearchResultController"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fcb1284f-99be-4eb4-b002-b3db783ce981"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3c919dbf-9e6b-4d59-8220-d0d2457045a7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d54c23cb-c0ec-46bc-a2a4-2da7c4ba3852">
+                    <propertyInstance
+                      Id="61f62b38-a119-499a-b998-dbfa6473ce1d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d021d93f-c9f7-4607-9e49-ed03d500447b">
+                    <propertyInstance
+                      Id="7938d097-cc3c-41b3-a2de-e39b4959d6bd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65d9dd0b-fd15-4133-a318-f914d542725e">
+                    <propertyInstance
+                      Id="a6ce766e-ef2b-4911-b32b-02002fdc8013"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a9d07cf-fa20-47b0-ab8a-a72027e2d124">
+                    <propertyInstance
+                      Id="92b7e927-fc40-4196-8fbe-8f7dbc9a920f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="061af6c5-4d56-4b82-86f8-5036353d5355">
+                    <propertyInstance
+                      Id="b016a77b-5934-47c1-bb14-216f42877c8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcec0b04-7435-43e0-91ad-e18229e863ba">
+                    <propertyInstance
+                      Id="90bbc962-06c0-4a12-b06a-8dbd6d7abde9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3c81db58-3ef3-43f9-b3ed-af32cd177900"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="897b1147-58ba-43a8-8999-6a3b9d8c3881"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3DCreate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da8608f9-ddc4-4896-b811-6cd0447b165d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ef7cc87-bee5-4a2c-b5b5-e99e8ca8b5a3">
+                    <propertyInstance
+                      Id="9a422450-e2eb-4292-bcd5-8d88c8daf239"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d925bff5-06ac-4e6f-9ad8-746ab0fbdfb8">
+                    <propertyInstance
+                      Id="141c6de8-8f3a-40fd-bb80-ee6ef755c2c1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5175c80b-8dd2-49d1-95a9-8755e16df525">
+                    <propertyInstance
+                      Id="a221533a-0643-402c-82f7-989e7c86d509"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3d36f75-4c82-4c94-8913-7dccb3bf0375">
+                    <propertyInstance
+                      Id="4d0d1b8c-bb45-4e97-82e9-34a13f1ee76c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0da4b3df-d38d-4f72-8263-31eed34a03ef">
+                    <propertyInstance
+                      Id="9a680bcb-a6e6-434a-a2cc-8175c5ec01c5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef57f035-6e6c-48f4-a2bf-369746990d0e">
+                    <propertyInstance
+                      Id="a0bc1734-8a8d-4149-adc1-59d949de8c44"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6cbbde1e-ae18-4851-91c6-c66a034e5ee9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8faa75f3-c875-4d2d-a19d-d5c1548b81da"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="279be4be-20be-48a6-8087-872b5b616d2d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Controllers Type%3DSearchResultController Member%3DIndex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c7c3cee-05a2-4ac6-a4a0-299ff1c92d30"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="800ffa04-4e2a-406e-a5ae-523bb81330df">
+                    <propertyInstance
+                      Id="afde5c33-2ddc-4fe7-acad-ac811ec5436e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="873adb8a-747c-47e9-894e-22d24c64aac3">
+                    <propertyInstance
+                      Id="f3e3bdee-c00b-43eb-937b-478dd1751f39"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="265e1fef-8e8a-4333-a1e1-88cce6ac03ee">
+                    <propertyInstance
+                      Id="bce92604-a439-4613-8e34-4b92babe4ce3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17075fa1-f697-4592-bfdc-a8c3c571d26b">
+                    <propertyInstance
+                      Id="6d60093e-3d8a-469f-9f8f-297d911c7816"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e5343af-2426-4d95-804f-23666fd372bc">
+                    <propertyInstance
+                      Id="c1c1cf7f-9347-49a9-ad49-c4a447ca00be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bbbc1c6-2fe9-4403-8b81-bb6f07900c9a">
+                    <propertyInstance
+                      Id="4eb848f8-3d97-4251-a22c-5c51d2e94f42"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="73b9c624-5984-4389-aabb-a14cf2bd2926"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a1c2a39-ed07-4538-8d22-e349a9df7212"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package15_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

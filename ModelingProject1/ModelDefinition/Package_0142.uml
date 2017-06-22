@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4e5cb565-4c26-49ae-8a4c-11518c165ad8"
+  name="Context"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="00fa8122-434f-4284-a814-7c0ed7f5dd86"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSentimentAnalysis.Context"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="62f76111-03fb-498e-b837-bdee4e445c7a"
+        name="SearchContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a76dc393-fd81-40d7-b3c2-78a53642aa99"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Context Type%3DSearchContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3df12f1e-394d-4fdf-8a35-053fa657672b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="963a2ca2-8cd0-47fb-9572-69ddf4c83566">
+                <propertyInstance
+                  Id="32ecfb2d-12ba-4801-a184-0422cd22d64b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0524f17f-0017-4215-a063-7c3a46c17f00">
+                <propertyInstance
+                  Id="940d3c56-4af4-4654-bd65-b395c780b765"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25ae85b7-b5e7-44e9-acb6-da9763ea0918">
+                <propertyInstance
+                  Id="4e841b79-1182-4da1-8a0e-f123cfe95b68"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a22ee9f-dd33-4167-8966-8cfda46f4cba">
+                <propertyInstance
+                  Id="8c137738-9c60-4364-94ed-e4423d9657a5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1d34732-ced0-4a40-b80a-e5a90e01ef8a">
+                <propertyInstance
+                  Id="c5f2123b-9707-4f85-b1c8-f84d988e33a8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="0f59e09f-34b3-4b29-bf7a-5f198e9df8fe"
+            isSubstitutable="false">
+            <classMoniker
+              Id="9d7a37ad-e29c-4700-b056-c8235f69d56a"
+              LastKnownName="DbContext"
+              LastKnownLocation="Package1_0128.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="0cd6dffa-8fa0-450e-b568-c6ed1b9c9e46"
+            isDerived="false"
+            sourceEndRoleName="SearchContext"
+            targetEndRoleName="Search"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="1396732e-c73d-42e3-9a7d-5bff5ef083ba"
+              LastKnownName="DbSet&lt;Search‎&gt;"
+              LastKnownLocation="Package1_0128.uml" />
+            <description>Property Search references type DbSet&lt;Search‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9920fd9d-e2ab-4680-9495-5b5b4967a4ab"
+                  name="SearchContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f022c0fa-933b-4cdb-981b-e0852d02502c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d4bcbd9a-0ffc-4bf9-9c25-c4f0d9790cd1"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d4c19a74-0097-455e-9edb-ec71121ff6a6"
+                  name="Search"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cf832e0b-35ac-4e5f-9dc2-a8cc9083c9d0"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="24507df5-d8ef-4b61-8fd8-35432c128858"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ee4a8c64-f95c-4ca9-bf9d-b45919b5f53d"
+            isDerived="false"
+            sourceEndRoleName="SearchContext"
+            targetEndRoleName="SearchResult"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fda51736-2f0d-4a11-a00e-0bb0abc68b17"
+              LastKnownName="DbSet&lt;SearchResult‎&gt;"
+              LastKnownLocation="Package1_0128.uml" />
+            <description>Property SearchResult references type DbSet&lt;SearchResult‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f24426b7-7d42-4a1c-b147-bc12b8dded08"
+                  name="SearchContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="13f1a549-1733-4a75-9420-0e59a436cea3"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="27e7f10b-5b04-4e22-a740-3d2c7ced6c8d"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b7490119-bb63-4b77-a54b-fc1e405f0954"
+                  name="SearchResult"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5929cf3a-1031-48bc-918f-9e36a3557a78"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="41629aad-d38a-4c3b-bd43-cda97761d1f3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="963a9e2a-276d-4e31-a110-4aca71763558"
+            isDerived="false"
+            sourceEndRoleName="SearchContext"
+            targetEndRoleName="SearchScores"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fd569ccf-ba42-4c30-a01f-2610bf32bd54"
+              LastKnownName="DbSet&lt;SearchScores‎&gt;"
+              LastKnownLocation="Package1_0128.uml" />
+            <description>Property SearchScores references type DbSet&lt;SearchScores‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e6bfaa66-ea31-42a8-bf0a-e70fa0318ca6"
+                  name="SearchContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e7e884f3-96fc-4565-9bb9-7159ad4a75b1"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9e4e9bcd-e6a8-4a4f-8a57-9783848c6197"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bd7e860b-5e26-421b-95a3-a9ef5945cdc2"
+                  name="SearchScores"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fb605cd7-d79f-4d47-85ba-e55f124eb793"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5954a234-7632-40ae-9ed5-12f48fe13c90"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="88b418e2-23c3-4241-9cdb-2a65a4bbf198"
+            name="Search"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c21c1d73-fe77-4db7-a60b-185ecb50a8e2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Context Type%3DSearchContext Member%3DSearch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d7e240e-c6f4-4d2c-8bf6-5aafb11a0661"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f10c8bb8-6804-45dd-b41f-a787346cf04d">
+                    <propertyInstance
+                      Id="aca2cf44-3ec1-47a3-a221-c71c5a517363"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c786fd03-f1fa-4117-9581-0a5201f17330">
+                    <propertyInstance
+                      Id="ee037c5c-94a9-4c98-9cbe-a924a1069237"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14005358-c049-4657-8673-4db874fbab4e">
+                    <propertyInstance
+                      Id="b21a949e-06e9-4567-99c0-849b82a2de05"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1c1629b-2fec-4b94-a412-e73a3e0f0787">
+                    <propertyInstance
+                      Id="497ba6f6-c925-4a67-abef-8d2a6710650a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb27025c-3257-482b-bb23-f4f64422dac2">
+                    <propertyInstance
+                      Id="33009d3f-73cc-4bad-a367-0412c1d433ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b275132c-3056-4118-a7bb-8aef813ff4a8">
+                    <propertyInstance
+                      Id="ac3273d5-68b6-4edb-b211-29071871e3be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a207988-9447-4ece-ac51-4154a16a185e">
+                    <propertyInstance
+                      Id="bb11d590-fe41-4228-9acc-ffebe04abe59"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1396732e-c73d-42e3-9a7d-5bff5ef083ba"
+                LastKnownName="DbSet&lt;Search‎&gt;"
+                LastKnownLocation="Package1_0128.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="90c33bfb-e739-44dc-8903-1af85c02f66f"
+            name="SearchResult"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="70a4b6c4-0f1a-4d5d-8e88-70e91b0788e4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Context Type%3DSearchContext Member%3DSearchResult"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b17f4a69-b9cd-4854-a6eb-bcc9299ff39c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e77aa029-0a74-4636-a8d4-d39589c6a37a">
+                    <propertyInstance
+                      Id="c48578d6-fcd0-4972-8bb8-a04edec1ce9c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36976dd-0588-408a-9854-de7fba5f3a6d">
+                    <propertyInstance
+                      Id="0a6a242a-0523-46a3-8616-239aea1910a2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="438d3007-6ab3-4bbd-84f2-1ec802449fc1">
+                    <propertyInstance
+                      Id="fd97aaaa-e822-4436-b053-7643f3c3e834"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e8e4c9-aa26-4ae6-b8b9-0754b227c66f">
+                    <propertyInstance
+                      Id="041539d5-b796-473d-b407-d29fbfc3a664"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3bd41a5-db65-4b09-8d86-82562291e743">
+                    <propertyInstance
+                      Id="39949d8d-3e70-49f6-947a-5ffa43727cf3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecc82575-facb-4e5f-ba35-53ef74d6fdcb">
+                    <propertyInstance
+                      Id="0f19281d-7517-4dd2-972b-07da1550ee2b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a84e01e-71b6-446d-b67d-68ae0cd7780b">
+                    <propertyInstance
+                      Id="9d8573d6-ffc9-4d2b-834b-6973c37edd0b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fda51736-2f0d-4a11-a00e-0bb0abc68b17"
+                LastKnownName="DbSet&lt;SearchResult‎&gt;"
+                LastKnownLocation="Package1_0128.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="34bf3b34-53a6-4b8b-be11-fe6f202ff40b"
+            name="SearchScores"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a873158e-082b-42e1-8534-32ce5b7502ee"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Context Type%3DSearchContext Member%3DSearchScores"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ad07815e-2d4a-48cd-a0e7-536b954606f3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88bf8be6-f7c0-47b0-b0df-983fbfa635f2">
+                    <propertyInstance
+                      Id="32bad8c4-8752-452f-a5dc-307a00020426"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f43a98b7-7b94-4920-8d6f-761b2fd2d1b1">
+                    <propertyInstance
+                      Id="4c2b4ff2-bec9-4f65-a128-c38a8bb24954"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86408bbd-b7db-4ea1-951a-92bfc593c468">
+                    <propertyInstance
+                      Id="1c222a5e-8c09-4824-bf96-9fcc6af6d5ba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9268bac-ffbd-4328-b433-68e3aea3cfca">
+                    <propertyInstance
+                      Id="b9179955-f455-49df-a83b-665458dba02d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba5bb450-a067-492a-9493-366e6477528f">
+                    <propertyInstance
+                      Id="602efe29-0b03-419a-bbba-352897996c7c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8d5ac26-613b-49ec-9e29-f34ca32c4040">
+                    <propertyInstance
+                      Id="e3cf3a27-e5c0-4d61-b798-9f369da9daf4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4582e284-ab89-4c61-a9fd-3681b589f648">
+                    <propertyInstance
+                      Id="7cbf7699-c206-4626-b4d0-cd24ae1fca2c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fd569ccf-ba42-4c30-a01f-2610bf32bd54"
+                LastKnownName="DbSet&lt;SearchScores‎&gt;"
+                LastKnownLocation="Package1_0128.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="597b853c-adf1-4d29-bef5-139122f997dc"
+            name="SearchContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0ba0a357-20e7-4722-ab10-1597d0a53abb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FEdd Chang%2FDocuments%2FVisual Studio 2015%2FProjects%2FSentimentAnalysis%2FSentimentAnalysis%2Fbin%2FSentimentAnalysis.dll&quot; Namespace%3DSentimentAnalysis.Context Type%3DSearchContext Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9d5bc5b-86cc-45ca-b0a8-250f7ae316a4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="205129bb-5a43-4c64-b08a-79388156b2f9">
+                    <propertyInstance
+                      Id="1c12b72e-e180-4651-88f2-e288f1f8ec78"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01e1c53f-6f8c-42e6-9f38-9f39f3e6912d">
+                    <propertyInstance
+                      Id="404e6692-02c5-42fe-a200-612032fc4af2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e2764cd-a4c1-4fbc-aeed-7abb786e8bb7">
+                    <propertyInstance
+                      Id="4187c6ca-b567-4cd3-8eb0-b66c94104fb6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3805ff7c-f27d-4e4d-8d3c-bf244fc78bd8">
+                    <propertyInstance
+                      Id="c746de90-f8a9-40ca-85e6-208c8da976a3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1896fc14-02b1-45e3-a9b6-78f500ed1abe">
+                    <propertyInstance
+                      Id="71e912b3-72e0-44de-a8a7-73e5e9044425"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b24ed42-2e2f-4142-b7eb-7aa31f356026">
+                    <propertyInstance
+                      Id="dd0cc6a8-4364-4dc2-84e3-1c387ecf7869"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
